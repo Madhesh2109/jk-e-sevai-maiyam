@@ -170,18 +170,6 @@ body {
   color: var(--primary);
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
-  .header-inner {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .header-nav {
-    gap: 16px;
-  }
-}
-
 /* ================= HERO / HOME ================= */
 .hero {
   background:
@@ -259,35 +247,6 @@ body {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
-}
-
-/* MOBILE STACK */
-@media (max-width: 900px) {
-  .hero {
-    padding: 90px 20px;
-  }
-
-  .hero-grid {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .hero-left,
-  .hero-right {
-    justify-content: center;
-  }
-
-  .hero-center {
-    margin: auto;
-  }
-
-  .hero-left img {
-    height: 72px;
-  }
-
-  .hero-right img {
-    height: 56px;
-  }
 }
 
 /* ================= SERVICES ================= */
@@ -387,32 +346,6 @@ body {
   }
 }
 
-/* TABLET & MOBILE */
-@media (max-width: 768px) {
-  .services-inner {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* SMALL MOBILE */
-@media (max-width: 600px) {
-  .service-category {
-    padding: 22px;
-  }
-
-  .service-category h3 {
-    font-size: 17px;
-  }
-
-  .service-category span {
-    font-size: 14px;
-  }
-
-  .service-category small {
-    font-size: 13px;
-  }
-}
-
 /* ================= ABOUT ================= */
 .about-section {
   /* background: var(--light); */
@@ -478,17 +411,6 @@ body {
   font-weight: 600;
   color: var(--primary);
   border: 1px solid #d1fae5;
-}
-
-/* MOBILE TUNING */
-@media (max-width: 600px) {
-  .about-intro {
-    font-size: 17px;
-  }
-
-  .about-content {
-    font-size: 15px;
-  }
 }
 
 /* ================= CONTACT ================= */
@@ -603,28 +525,6 @@ body {
   }
 }
 
-/* TABLET & MOBILE */
-@media (max-width: 768px) {
-  .contact-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-cta {
-    text-align: center;
-  }
-
-  .contact-actions {
-    justify-content: center;
-  }
-}
-
-/* SMALL MOBILE */
-@media (max-width: 600px) {
-  .contact-header h2 {
-    font-size: 26px;
-  }
-}
-
 /* ================= MODAL ================= */
 .modal {
   position: fixed;
@@ -730,16 +630,5 @@ body {
 
   .footer-meta {
     text-align: right;
-  }
-}
-
-/* ================= MOBILE ================= */
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 30px;
-  }
-
-  .about-text {
-    font-size: 16px;
   }
 }
