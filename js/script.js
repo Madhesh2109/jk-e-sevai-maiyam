@@ -79,3 +79,22 @@ document.addEventListener("keydown", e => {
     document.body.style.overflow = "";
   }
 });
+
+const openQrBtn = document.getElementById("openQrBtn");
+const qrModal = document.getElementById("qrModal");
+const closeQrBtn = document.getElementById("closeQrBtn");
+
+openQrBtn.addEventListener("click", () => 
+  {
+    qrModal.classList.add("show");
+  });
+
+closeQrBtn.addEventListener("click", () => {
+    qrModal.classList.remove("show");
+  });
+
+qrModal.addEventListener("click", (e) => {
+    if (e.target === qrModal) {
+      qrModal.classList.remove("show");
+    }
+  });
